@@ -7,8 +7,3 @@
 #__import__("4-hidden_discovery")
 #__import__("5-variable_load")
 __import__("100-my_calculator")
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
