@@ -1,8 +1,8 @@
 # Python Data Structures: Lists, Tuples & Sequences
 # Resources
 * [Python Documentation on Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
-* Python Documentation on Data Structures
-* Some videos on Lists
+* [Python Documentation on Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+* [Some videos on Lists](https://www.youtube.com/watch?v=A1HUzrvS-Pw)
 # Lessons Learned
 * Lists and how to use them
 * The differences and similarities between strings and lists
