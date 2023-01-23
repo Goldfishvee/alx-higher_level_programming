@@ -9,5 +9,5 @@
 * When to implement a clean-up action after an exception
 
 # Resources
-* (Python documentation on Errors and Exceptions) {https://docs.python.org/3/tutorial/errors.html}
+* (Python documentation on Errors and Exceptions) [https://docs.python.org/3/tutorial/errors.html]
 * (Some videos for your interest){https://www.youtube.com/watch?v=7vbgD-3s-w4}
