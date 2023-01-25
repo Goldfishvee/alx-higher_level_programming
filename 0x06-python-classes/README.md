@@ -23,5 +23,5 @@ So far we have been dealing with procedural programs e.g. functions, lists, dict
 * How to use the getattr function
 # Resources
 [Object-Oriented Programming](https://python.swaroopch.com/oop.html)
-More documentation on OOP
-Properties vs Getters and Setters
+[More documentation on OOP](https://python-course.eu/oop/object-oriented-programming.php)
+[Properties vs Getters and Setters](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
