@@ -9,7 +9,6 @@ class Rectangle():
     """define a Rectangle"""
     def __init__(self, width=0, height=0):
         """initialize Rectangle
-        
         Args:
             width(int): define the width dimension
             height(int): define height dimension
@@ -25,7 +24,6 @@ class Rectangle():
     @width.setter
     def width(self, value):
         """set the value of width of Rectangle
-        
         Args:
             value(int): contains dimensional value of Rectangle width
         Return:
@@ -47,7 +45,6 @@ class Rectangle():
     @height.setter
     def height(self, value):
         """set the value of height of Rectangle
-        
         Args:
             value(int): contains dimensional height value of Rectangle
         Return:
