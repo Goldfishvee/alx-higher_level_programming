@@ -11,5 +11,5 @@ How to find edge cases
 [Python doctest documentation 1](https://docs.python.org/3/library/doctest.html)  
 [Extra doctest documentation](https://pymotw.com/3/doctest/)
 [Interactive and Non-interactive tests](https://mattermost.com/blog/testing-python-understanding-doctest-and-unittest/)
-unittest module -video
-Unit Tests in Python - video
+[unittest module -video](https://www.youtube.com/watch?v=6tNS--WetLI)
+[Unit Tests in Python - video](https://www.youtube.com/watch?v=1Lfv5tUGsn8)
