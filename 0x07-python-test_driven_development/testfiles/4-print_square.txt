@@ -1,0 +1,155 @@
+Testing the 4-print_square Module
+
+================================
+
+Usage:
+
+======
+
+Checking function importation:
+
+    >>> print_square = __import__("4-print_square").print_square
+
+Checking for module docstring:
+
+    >>> fstr = __import__("4-print_square").__doc__
+
+    >>> len(fstr) > 1
+
+    True
+
+Checking for function docstring:
+
+    >>> fstr = __import__("4-print_square").print_square.__doc__
+
+    >>> len(fstr) > 1
+
+    True
+
+Checking for supplying no argument:
+
+    >>> print_square()
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: print_square() missing 1 required positional argument: 'size'
+
+Checking for supplying None as argument:
+
+    >>> print_square(None)
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: size must be an integer
+
+Checking for supplying many args:
+
+    >>> print_square(1, 2)
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: print_square() takes 1 positional argument but 2 were given
+
+Checking for supplying positive integers:
+
+    >>> print_square(4)
+
+    ####
+
+    ####
+
+    ####
+
+    ####
+
+    >>> print_square(10)
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    ##########
+
+    >>> print_square(1)
+
+    #
+
+    >>> print_square(0)
+
+    
+
+Checking for supplying negative integers:
+
+    >>> print_square(-1)
+
+    Traceback (most recent call last):
+
+    ...
+
+    ValueError: size must be >= 0
+
+Checking for supplying non-number types:
+
+    >>> print_square((1,))
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: size must be an integer
+
+    
+
+    >>> print_square("3")
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: size must be an integer
+
+    
+
+    >>> print_square(True)
+
+    #
+
+Checking for supplying non-integer number types as arguments:
+
+    >>> print_square(1.0)
+
+    Traceback (most recent call last):
+
+    ...
+
+    TypeError: can't multiply sequence by non-int of type 'float'
+
+    
+
+    >>> print_square(-5.5)
+
+    Traceback (most recent call last):
+
+    ...
+
+    ValueError: size must be >= 0
