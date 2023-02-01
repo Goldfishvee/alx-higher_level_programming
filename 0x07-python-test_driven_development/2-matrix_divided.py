@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 This is the "2-matrix_divided" module.
+
 This modules supplies two arguments, matrix_divided(matrix, div)
 where each element in the matrix is divided by a vector.
 """
