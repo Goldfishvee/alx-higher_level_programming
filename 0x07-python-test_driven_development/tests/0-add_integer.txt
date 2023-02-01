@@ -1,4 +1,4 @@
-Testting the 0-add_integer Module
+Testing the 0-add_integer Module
 ================================
 
 Usage
