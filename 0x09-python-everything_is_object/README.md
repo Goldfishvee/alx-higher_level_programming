@@ -13,7 +13,7 @@
 * What are the built-in mutable types
 * What are the built-in immutable types
 * How does Python pass variables to functions
-Resources
+# Resources
 * [Objects and Values](http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values)
 * [Mutation](http://composingprograms.com/pages/24-mutable-data.html#sequence-objects)
 * [Python Tuples](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
