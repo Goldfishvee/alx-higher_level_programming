@@ -12,7 +12,7 @@
 * What is the purpose of inheritance
 * What are, when and how to use isinstance, issubclass, type and super built-in functions
 # Resources
-[Python documentation on Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
-[Python documentation on Multiple Inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
-[Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
-[Inheritance Magic Methods](https://youtu.be/d8kCdLCi6Lk)
+* [Python documentation on Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
+* [Python documentation on Multiple Inheritance](https://docs.python.org/3/tutorial/classes.html#multiple-inheritance)
+* [Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
+* [Inheritance Magic Methods](https://youtu.be/d8kCdLCi6Lk)
