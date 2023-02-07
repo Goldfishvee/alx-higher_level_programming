@@ -4,11 +4,11 @@
 
 def write_file(filename="", text=""):
     """write content to a file
-    
+
     Args:
         filename(str): name of file to write to
         text(str): string chars to write to file
-    
+
     Return:
         count of chars written.
         function will create file if it doesn't exist
