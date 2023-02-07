@@ -8,7 +8,7 @@ class Rectangle(BaseGeometry):
     """defines child class of BaseGeometry"""
     def __init__(self, width, height):
         """initialize Rectangle
-        
+
         Args:
             width(int): area width parameter of Rectangle
             height(int): area height parameter of Rectangle

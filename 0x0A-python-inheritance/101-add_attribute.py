@@ -4,7 +4,7 @@
 
 def add_attribute(obj, attr, value):
     """Add an attribute to an object if possible
-    
+
     Args:
         obj(any): object to add attribute to
         attr(str): name of attribute
