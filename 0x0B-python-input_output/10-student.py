@@ -8,12 +8,12 @@ class Student():
     """Define a Student"""
     def __init__(self, first_name, last_name, age):
         """initialize Student
-        
+
         Args:
             first_name(str): first name of student
             last_name(str): last name of student
             age(int): age of student
-        
+
         Return:
             dict representation of attributes of Student
         """
@@ -23,10 +23,10 @@ class Student():
 
     def to_json(self, attrs=None):
         """Retrieves dict repr of Student instance
-        
+
         Args:
             attrs(any): attribute types to retrieve
-        
+
         Return:
             all attribute values except if attribute is str
             then return only attribute names

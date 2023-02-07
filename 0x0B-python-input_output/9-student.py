@@ -8,12 +8,12 @@ class Student():
     """Define a Student"""
     def __init__(self, first_name, last_name, age):
         """initialize Student
-        
+
         Args:
             first_name(str): first name of student
             last_name(str): last name of student
             age(int): age of student
-        
+
         Return:
             dict representation of attributes of Student
         """
