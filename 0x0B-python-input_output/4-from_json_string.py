@@ -6,7 +6,7 @@ import json
 
 def from_json_string(my_str):
     """Decodes py data structure represented by a JSON string
-    
+
     Args:
         my_str(str): JSON object to decode
     """
