@@ -6,8 +6,7 @@ Define function that checks inheritance of class object
 
 def inherits_from(obj, a_class):
     """Check inheritance of object
-    
-   Arg:
+    Arg:
         obj (any obj): target object whose inheritance is to be checked.
         a_class (type): class to match obj to.
     Return:
