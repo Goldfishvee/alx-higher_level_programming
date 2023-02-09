@@ -1,6 +1,7 @@
 # Almost A Circle Project
 # Background Context
 The AirBnB project is a big part of the Higher level curriculum. This project will help you be ready for it.
+
 In this project, I reviewed everything about Python:
 * Import
 * Exceptions
@@ -12,6 +13,7 @@ In this project, I reviewed everything about Python:
 * Inheritance
 * Unittest
 * Read/Write file
+
 Additionally I also learned about:
 * *args and **kwargs
 * Serialization/Deserialization
