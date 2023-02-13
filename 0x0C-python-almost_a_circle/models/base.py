@@ -12,7 +12,7 @@ class Base:
 
     def __init__(self, id=None):
         """initialize base class
-        
+
         Args:
             id (int): id of object instances created
         """
@@ -25,7 +25,7 @@ class Base:
     @staticmethod
     def to_json_string(list_dictionaries):
         """Returns the JSON string representation of list dictionaries
-        
+
         Args:
             list_dictionaries (list): list of dictionaries
         """
@@ -37,7 +37,7 @@ class Base:
     @classmethod
     def save_to_file(cls, list_objs):
         """Write the JSON string representation of list_objs to a file
-        
+
         Args:
             list_objs (list): list of instances that inherit from Base
         """
@@ -52,7 +52,7 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         """Returns the list of JSON str repr of json_string
-        
+
         Args:
             json_string (str): string representation of a list of dicts
         """
@@ -65,7 +65,7 @@ class Base:
     @classmethod
     def create(cls, **dictionary):
         """Returns a class from a dict of attributes
-        
+
         Args:
             **dictionary (dict): key/value pairs of attr to initialize
         """
@@ -96,7 +96,7 @@ class Base:
     @classmethod
     def save_to_file_csv(cls, list_objs):
         """serialize objects in CSV
-        
+
         Args:
             list_objs (obj): list of inherited Base instances to serialize
         """
@@ -138,7 +138,7 @@ class Base:
     @staticmethod
     def draw(list_rectangles, list_squares):
         """Draw Rectangles and Squares using the turtle module.
-        
+
         Args:
             list_rectangles (list): A list of Rectangle objects to draw.
             list_squares (list): A list of Square objects to draw.
@@ -174,4 +174,4 @@ class Base:
                 turt.left(90)
             turt.hideturtle()
 
-        turtle.exitonclick() 
+        turtle.exitonclick()
