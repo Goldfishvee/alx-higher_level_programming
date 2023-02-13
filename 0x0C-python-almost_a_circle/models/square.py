@@ -7,7 +7,7 @@ class Square(Rectangle):
     """Defines a Square"""
     def __init__(self, size, x=0, y=0, id=None):
         """initialize Square and its associated propertie
-        
+
         Args:
             size (int): size of Square
             x (int): x dimensonal value of Square
@@ -31,7 +31,7 @@ class Square(Rectangle):
 
     def update(self, *args, **kwargs):
         """Updates and assigns new attributes to Square
-        
+
         Args:
             *args (ints): new list of arguments (no-keyword-argument)
             1st arg (int): id attribute of Square
