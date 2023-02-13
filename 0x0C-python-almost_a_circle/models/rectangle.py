@@ -8,7 +8,7 @@ class Rectangle(Base):
     """Defines a Rectangle"""
     def __init__(self, width, height, x=0, y=0, id=None):
         """initialize Rectangle
-        
+
         Args:
             width (int): width dimension of Rectangle
             height (int): height dimension of Rectangle
@@ -95,7 +95,7 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """Updates the Rectangle
-        
+
         Args:
             args (int): aggregates and displays all arguments given to func
             1st arg (int): id attribute
